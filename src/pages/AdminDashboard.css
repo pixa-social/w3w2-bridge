@@ -1,0 +1,151 @@
+.admin-dashboard {
+  padding-top: 80px;
+}
+
+.admin-hero {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, var(--surface), var(--background));
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.admin-content {
+  padding: 4rem 0;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.admin-card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+}
+
+.wallet-config {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.config-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.config-item label {
+  flex-grow: 1;
+}
+
+.config-item select {
+  padding: 0.5rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+}
+
+.storage-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.storage-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-roles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.role-item {
+  border: 1px solid var(--text-secondary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.role-item h4 {
+  margin-bottom: 0.5rem;
+}
+
+.permissions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.permission-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.api-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.api-setting {
+  display: flex;
+  flex-direction: column;
+}
+
+.api-setting label {
+  margin-bottom: 0.5rem;
+}
+
+.api-setting input {
+  padding: 0.5rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+}
+
+.api-key-management {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.api-keys-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.api-key-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background: rgba(0, 219, 222, 0.1);
+  border-radius: 4px;
+}

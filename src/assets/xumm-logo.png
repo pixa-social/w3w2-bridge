@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Xaman: the #1 self custodial Xahau / XRP Ledger wallet</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/site.webmanifest">
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="author" content="@XRPLLabs, xrpl-labs.com">
+    <meta name="monetization" content="$ilp.uphold.com/fpJJgbyY3MqZ"/>
+    <meta name="generator" content="@XRPLLabs">
+    <meta name="description" content="Xaman: Leading in self custody. The entire XRPL and Xahau ecosystem in your pocket.">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://xumm.app/twitter-card.png">
+    <meta name="twitter:creator" content="@XRPLLabs">
+    <meta name="twitter:description" content="Xaman: Leading in self custody. The entire XRPL and Xahau ecosystem in your pocket.">
+    <meta name="twitter:title" content="Open with Xaman">
+
+    
+      <!-- Block: canonical, Module:  -->
+      
+    
+
+    
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+
+    <script src="https://kit.fontawesome.com/fa35e16c8d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/vtt7ckl.css">
+
+    
+      <link rel="stylesheet" href="/assets/css/home.css?v1" crossorigin="anonymous">
+    
+
+    
+      
+    
+  </head>
+  <body class="">
+    
+    
+  <section name="head" class="bg-white">
+
+    
+      <section name="menu" class="py-5">
+        <div class="container d-block d-md-flexx flexx-wrap text-center">
+          <div class="row">
+            <div class="text-md-left col-12 col-sm-4 col-md-3">
+              <a href="/" class="pt-2 mb-3 mr-4">
+                <img src="/assets/images/logo-xaman.svg" class="x-float-left mr-3" style="max-width: 150px;" alt="XRPL Labs"/>
+              </a>
+              <div class="d-md-none mt-3 mb-3"></div>
+              
+              
+              
+              
+              
+              
+              
+            </div>
+            <div class="col-12 col-sm-8 col-md-9">
+              <div class="flexx-fill text-right" style="style: relative; margin-top: -4px;">
+                
+  
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+        
+      
+
+      
+  <div class="container pb-4">
+    <div class="row">
+      <div class="col-12 col-md-6 offset-md-3 pt-md-5 pb-md-5">
+        <div class="card shadow-sm">
+          <div class="card-header bg-secondary text-white">
+            <i class="fa fa-exclamation-triangle"></i>
+            Error (404)
+          </div>
+          <div class="card-body">
+            <p class="text-secondary">
+              Sorry, the page you requested could not be found.
+            </p>
+            <img src="https://media.giphy.com/media/3fqXc6Z2HRgUE/giphy.gif" class="img-fluid rounded" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </section>
+
+    
+
+    
+      
+      
+      
+      <section name="footer" class="py-4 border-top border-light">
+        <div class="container text-muted">
+          <div class="footer-text text-left pb-1">
+            &copy; <a href="https://xrpl-labs.com/" class="text-muted"><u>XRPL Labs</u></a>
+            &dash; <a href="https://github.com/XRPL-Labs/XUMM-Issue-Tracker/blob/master/RESPONSIBLE-DISCLOSURE.md" target="_blank" class="text-muted"><u>Responsible Disclosure</u></a>
+            <br/>
+            <a href="https://xrpl-labs.com/"><img src="/assets/images/logo-xrpl.svg" class="mr-3 mb-3" alt="XRPL Labs"/></a>
+          </div>
+        </div>
+      </section>
+    
+
+  
+
+    
+      <script src="/assets/js/vue.v2.6.14.min.js"></script>
+    
+    
+    
+    
+
+    <script src="/assets/js/sweetalert.min.js"></script>
+    <script src="/assets/cdn/xumm-xapp-sdk.min.js?v=103"></script>
+    <script src="/assets/js/inline-helpers.js?v=103" id="inlinejshelpers"></script>
+  </body>
+</html>

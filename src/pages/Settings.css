@@ -1,0 +1,91 @@
+.settings-page {
+  padding-top: 80px;
+}
+
+.settings-hero {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, var(--surface), var(--background));
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.settings-content {
+  padding: 4rem 0;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.settings-card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.settings-card:hover {
+  transform: translateY(-5px);
+}
+
+.api-keys {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.api-key {
+  display: flex;
+  flex-direction: column;
+}
+
+.api-key label {
+  margin-bottom: 0.5rem;
+}
+
+.api-key input {
+  padding: 0.5rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+}
+
+.account-management {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.api-instructions {
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+.api-instructions ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.api-instructions a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.api-instructions a:hover {
+  text-decoration: underline;
+}

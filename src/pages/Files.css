@@ -1,0 +1,145 @@
+.files-page {
+  padding-top: 80px;
+}
+
+.files-hero {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, var(--surface), var(--background));
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.files-content {
+  padding: 4rem 0;
+}
+
+.file-upload {
+  margin-bottom: 4rem;
+}
+
+.upload-area {
+  border: 2px dashed var(--primary);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+  background: rgba(0, 219, 222, 0.1);
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.upload-icon {
+  font-size: 4rem;
+  color: var(--primary);
+}
+
+.file-input {
+  display: none;
+}
+
+.file-management {
+  margin-bottom: 4rem;
+}
+
+.file-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.file-item {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.file-item:hover {
+  transform: translateY(-5px);
+}
+
+.file-icon {
+  font-size: 2rem;
+}
+
+.file-details {
+  flex-grow: 1;
+}
+
+.file-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.storage-options {
+  margin-bottom: 4rem;
+}
+
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.network-card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.network-card:hover {
+  transform: translateY(-5px);
+}
+
+.network-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.storage-info {
+  margin-bottom: 4rem;
+}
+
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.tier-card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tier-card:hover {
+  transform: translateY(-5px);
+}
